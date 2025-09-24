@@ -1,0 +1,84 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SURA</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0033A0; /* Color Pantone 286C */
+    }
+    .title-font {
+      font-family: 'Barlow', sans-serif;
+      font-weight: 500;
+    }
+    .custom-link-box {
+      background-color: #00C2D6; /* Color Pantone 3125C */
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .custom-link-box:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Main container -->
+  <div class="container mx-auto px-4 py-8 max-w-5xl">
+    
+    <!-- Header -->
+    <header class="text-center mb-12">
+      <h1 class="text-white text-5xl font-extrabold tracking-tight title-font">SURA</h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="bg-white p-8 md:p-12 rounded-lg shadow-xl">
+      <!-- Text Box -->
+      <div class="mb-10 text-lg leading-relaxed text-center">
+        <p class="text-gray-700 text-justify">
+          <span class="font-bold text-xl block mb-2 text-center">SURA: Inspirando confianza, construyendo futuro</span>
+          Grupo SURA es una de las empresas más reconocidas de América Latina en servicios financieros y gestión de inversiones. Con más de 75 años de trayectoria, ha logrado consolidarse como un referente en innovación, sostenibilidad y cercanía con las personas. Su propósito va más allá de ofrecer seguros, pensiones, ahorro e inversión: busca acompañar a cada persona y organización en su crecimiento, brindando confianza y soluciones a la medida para construir un mejor futuro.
+        </p>
+      </div>
+
+      <!-- Image Placeholder 1 -->
+      <div class="flex justify-center mb-10">
+        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/UVZNCE5D6TQULLI7Y3U63VKOUQ.jpg" class="w-full h-auto rounded-lg shadow-md">
+      </div>
+
+      <!-- Links Section -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
+        <a href="https://gapo25.github.io/gapo25/" target="_blank" class="custom-link-box">El ADN</a>
+        <a href="https://valentinasanchezceballos449-stack.github.io/SURA/" target="_blank" class="custom-link-box">Personalidad</a>
+        <a href="https://isav464.github.io/Sura.github.oi/" target="_blank" class="custom-link-box">Identidad Visual</a>
+        <a href="https://serranocotrinastefanya-lab.github.io/index.html/" target="_blank" class="custom-link-box">Estrategia de Mensajes</a>
+        <a href="https://luf-37.github.io/" target="_blank" class="custom-link-box">Arquitectura de Marca</a>
+        <a href="https://gamezcastrocamila-lgtm.github.io/cami.github.ia/" target="_blank" class="custom-link-box">El Rol del Empleado</a>
+        <a href="https://alejandrofrancouexternado.github.io/FuturoSura/" target="_blank" class="custom-link-box lg:col-span-3 lg:w-1/3 lg:mx-auto">El Futuro SURA</a>
+      </div>
+      
+      <!-- Image Placeholder 2 -->
+      <div class="flex justify-center">
+        <img src="https://www.feasa.com.co/wp-content/uploads/2018/11/e90f6324c4e17b81822dc7dfbbbaa787_3.jpeg" alt="Placeholder para otra imagen" class="w-full h-auto rounded-lg shadow-md">
+      </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="mt-8 text-center text-white text-sm">
+      <p>&copy; 2023 SURA. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+
+</body>
+</html>
